@@ -1,0 +1,54 @@
+body {
+    background-color: cadetblue;
+}
+
+
+/************************* MENU *********************/
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+
+
+
+
+#p-inicial{
+    padding-left: 30px;
+    color: blue;
+}
+
+/* Todos los elementos que DE TIPO P (PÁRRAFO) que contengan la clase 'parrafos-letra-grande' */
+p.parrafos-letra-grande{
+    font-size: 1.5rem;
+}
+
+/* Todos los elementos que contengan la clase 'parrafos-letra-grande' */
+.parrafos-letra-grande{
+    font-size: 1.5rem;
+}
